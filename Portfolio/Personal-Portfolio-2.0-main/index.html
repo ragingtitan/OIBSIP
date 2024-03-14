@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleutil1.css">
+  <link rel="stylesheet" href="styleutil2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/netflix-font" rel="stylesheet">
+</head>
+<body>
+  <div id="preloader"></div>
+  <header>
+    <div class="navigation-bar">
+      <div class="name"><a href="https://portfolioanishdas.netlify.app/"><span class="letter-a red">A</span>nish.</a></div>
+      <nav class="navbar">
+        <ul id="ul">
+          <li id="home" class="font-size-20px hide">Home</li>
+          <li id="about" class="font-size-20px hide">About</li>
+          <li id="services" class="font-size-20px hide">Services</li>
+          <li id="project" class="font-size-20px hide">Projects</li>
+          <li id="contact" class="font-size-20px hide">Contact</li>
+          <li id="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 448 512">
+              <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill="#ffffff"/>
+          </svg>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="intro">
+      <ul>
+        <li class="job mstop msbot">Web Developer</li>
+        <li class="intro-text b">
+          <div class="animation">
+            <div id="type"></div>
+            <span class="cursor"></span>
+          </div>
+        </li>
+        <li class="intro-text mstop msbot b">Love from India<span class="heart">❤️</span></li>
+      </ul>
+    </div>
+  </header>
+  <div class="body">
+    <div class="body-wrapper">
+      <div class="info mxltop mxlbot">
+        <div class="info-wrapper">
+          <div class="profile-pic">
+            <img src="user.png" alt="My img" height="400px">
+          </div>
+          <div class="about-me mxl mxr">
+            <h2 class="mstop msbot">About me</h2>
+            <p class="about-me-text font-size-20px">Hey! I'm a passionate ECE student at the Heritage Institute of Technology. Currently immersed in the fascinating world of Electronics and Communication Engineering, I'm on a journey to evolve into a future data scientist.</p>
+            <div class="skillset mstop msbot">
+              <div class="skill-wrapper mxr">
+                <h3 class="font-size-20px" id="skill">Skills</h3>
+              </div>
+              <div class="experience-wrapper mxr">
+                <h3 class="font-size-20px" id="experience">Experience</h3>
+              </div>
+              <div class="education-wrapper">
+                <h3 class="font-size-20px" id="education">Education</h3><div>
+              </div>
+            </div>
+          </div>
+          <div id="text" class="toggle"><p>HTML, CSS, JavaScript, Responsive Design, node.js, Express.js,UI/UX Principles and figma</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="services">
+      <h2 class=" pl mstop msbot">My Services</h2>
+      <div class="services-wrapper mtop mbot">
+        <div class="service1">
+          <div class="img-logo-sourcecode">
+            <img src="index.png" class="pxs">
+          </div>
+          <div class="service1-wrapper">
+            <div class="service1-header">
+              <span class="font-size-30px p">Web Design</span>
+            </div>
+            <div class="service1-body">
+              <h4 class="p fw-normal mstop msbot">I wield HTML, CSS, and JavaScript to conjure visually stunning and intuitively functional websites. Think of me as the sorcerer who turns digital dreams into reality, blending aesthetics with a touch of magic for an unforgettable user experience.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="service2">
+          <div class="img-logo-uiux msbot mstop">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/mobile-ui-ux-icon.png" width="106" height="106" alt="Mobile UI UX icon in SVG, PNG formats" title="Mobile UI UX icon">
+          </div>
+          <div class="service2-wrapper">
+            <div class="service2-header">
+              <span class="font-size-30px p">UI & UX</span>
+            </div>
+            <div class="service2-body">
+              <h4 class="p fw-normal mstop msbot">Embark on a journey through seamless interfaces! I dive into the world of wireframes, user stories, and pixel perfection, crafting designs that not only look good but also feel like a delightful adventure.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="service3">
+          <div class="img-logo-aiml mstop msbot">
+            <svg fill="#000000" height="100px" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	            viewBox="0 0 512 512" xml:space="preserve">
+              <g>
+	              <g>
+		            <path d="M498.095,198.122c0-25.763-9.68-50.313-27.257-69.131c-13.197-14.129-29.915-24.039-48.274-28.848
+			          c0.253-2.749,0.397-5.521,0.397-8.313C422.962,41.194,381.768,0,331.133,0C300.099,0,272.631,15.49,256,39.129
+			          C239.369,15.49,211.901,0,180.867,0c-50.635,0-91.828,41.194-91.828,91.828c0,2.794,0.145,5.565,0.397,8.313
+			          c-18.359,4.808-35.075,14.719-48.274,28.848c-17.578,18.819-27.257,43.37-27.257,69.132c0,21.486,6.731,41.427,18.185,57.837
+			          c-11.804,16.895-18.185,37.001-18.185,57.919c0,46.95,32.11,86.538,75.522,97.967c-0.249,2.761-0.39,5.537-0.39,8.327
+			          c0,50.635,41.194,91.828,91.828,91.828c31.035,0,58.503-15.49,75.133-39.129C272.631,496.51,300.099,512,331.133,512
+			          c50.635,0,91.828-41.194,91.828-91.828c0-2.788-0.14-5.565-0.39-8.327c43.412-11.429,75.522-51.016,75.522-97.967
+			          c0-20.919-6.382-41.025-18.185-57.919C491.365,239.549,498.095,219.608,498.095,198.122z M239.304,343.088v77.084
+			          c0,32.221-26.216,58.437-58.437,58.437c-32.223,0-58.437-26.216-58.437-58.437c0-1.771,0.088-3.532,0.245-5.284
+			          c25.807-1.92,50.123-13.714,67.616-33.029l-24.749-22.417c-12.857,14.195-31.206,22.337-50.343,22.337
+			          c-37.442,0-67.902-30.461-67.902-67.901c0-11.892,3.075-23.392,8.834-33.519c16.639,11.985,37.042,19.055,59.068,19.055v-33.391
+			          c-37.442,0-67.902-30.461-67.902-67.901c0-31.399,21.722-58.325,51.228-65.815c10.151,20.567,27.843,37.177,50.093,45.523
+			          l11.728-31.264c-22.678-8.507-37.916-30.504-37.916-54.737c0-32.223,26.216-58.437,58.437-58.437s58.437,26.216,58.437,58.437
+			          v77.084v23.211h-13.79v-23.211h-33.391v23.211h-23.211v33.391h23.211v13.79h-23.211v33.391h23.211v13.789h-23.211v33.391h23.211
+			          v23.211h33.391v-23.211h13.79V343.088z M225.516,286.485v-60.969h60.969v60.969H225.516z M455.869,280.359
+			          c5.759,10.128,8.834,21.628,8.834,33.519c0,37.442-30.461,67.901-67.902,67.901c-19.137,0-37.486-8.141-50.343-22.337
+			          L321.71,381.86c17.494,19.314,41.809,31.107,67.616,33.029c0.157,1.751,0.245,3.513,0.245,5.284
+			          c0,32.223-26.216,58.437-58.437,58.437s-58.438-26.214-58.438-58.437v-77.084v-23.211h13.789v23.211h33.391v-23.211h23.211
+			          v-33.391h-23.211v-13.789h23.211v-33.391h-23.211v-13.79h23.211v-33.391h-23.211v-23.211h-33.391v23.211h-13.789v-23.211V91.828
+			          c0-32.223,26.216-58.437,58.437-58.437s58.437,26.214,58.437,58.437c0,24.232-15.238,46.229-37.916,54.737l11.728,31.264
+			          c22.251-8.347,39.942-24.957,50.094-45.523c29.506,7.491,51.228,34.416,51.228,65.815c0,37.441-30.461,67.901-67.902,67.901
+			          v33.391C418.827,299.414,439.23,292.343,455.869,280.359z"/>
+	              </g>
+              </g>
+            </svg>
+            </div>
+            <div class="service3-header">
+              <span class="font-size-30px p">AI & ML</span> 
+            </div>
+            <div class="service3-body">
+              <h4 class="p fw-normal mstop msbot">
+                In the realm of AI and ML, I'm the architect of intelligent systems, wielding Python, TensorFlow, and scikit-learn like a digital wizard. From predicting the future to understanding human language, I thrive on pushing the boundaries of what technology can achieve.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project mxltop">
+      <h2 class="pl mstop msbot">My Projects</h2>
+      <div class="project-wrapper mtop mbot">
+        <div class="project1">
+          <div class="project1-head">
+            <a href=""><img sizes="(min-width: 768px) 100vw, (max-width: 403px) min(100%, 363px), (max-height: 756px) min(100%, 363px), (min-aspect-ratio: 3000/4800) calc((calc(100vh - 175px)) * 0.625), calc(100vw - 40px)" srcset="https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=363&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 363w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=663&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 663w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=726&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 726w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=963&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 963w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=1263&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1263w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=1326&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1326w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=1563&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1563w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=1863&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1863w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=1926&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1926w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=2163&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2163w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=2463&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2463w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=2526&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2526w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=2763&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2763w, https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3000w" src="https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="AI, Artificial Intelligence concept,3d rendering,conceptual image." class="tB6UZ a5VGX" style="aspect-ratio: 3000 / 4800;"></a>
+          </div>
+          <div class="project1-body">
+            <h2 class="center font-size-30px mtop">AI Text Summarizer</h2>
+            <p class="mstop">This is an AI power text summarizer, that will summarize your lengthy and tiresome to read documents into small legible and concise text to save your time. Optimized for mobile use.</p>
+            <p class="mtop">Link to github <a class="blue u" href="https://github.com/ragingtitan/Text-Summarizer-AI.git">repository</a>.</p>
+          </div>
+        </div>
+        <div class="project2">
+          <div class="project2-head">
+            <a href=""><img sizes="(min-width: 768px) 100vw, (max-width: 504px) min(100%, 464px), (max-height: 755px) min(100%, 464px), (min-aspect-ratio: 3600/4500) calc((calc(100vh - 175px)) * 0.8), calc(100vw - 40px)" srcset="https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=464&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 464w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=764&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 764w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=928&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 928w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1064&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1064w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1364&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1364w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1528&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1528w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1664&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1664w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1964&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1964w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2128&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2128w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2264&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2264w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2564&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2564w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2728&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2728w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2864&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2864w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3164&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3164w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3328&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3328w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3464&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3464w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3600w" src="https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blue and white labeled bottle" class="tB6UZ a5VGX" style="aspect-ratio: 3600 / 4500;"></a>
+          </div>
+          <div class="project2-body">
+            <h2 class="center font-size-30px mtop">COVID-19 Website</h2>
+            <p class="mstop">Get COVID-19 HealthCare and news from all over the world. </p>
+            <p class="mtop">Link to github <a class="blue u" href="https://github.com/DevilSlayer1/UnitedHomeHealthCareServices2.0.git">repository</a>.</p>
+            <p class="mstop">Link to <a class="blue u" href="https://projectcovid19services.netlify.app/">Site</a>.</p>
+          </div>
+        </div>
+        <div class="project3">
+          <div class="project3-head">
+            <a href=""><img sizes="(min-width: 768px) 100vw, (max-width: 427px) min(100%, 387px), (max-height: 756px) min(100%, 387px), (min-aspect-ratio: 3744/5616) calc((calc(100vh - 175px)) * 0.666667), calc(100vw - 40px)" srcset="https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 387w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 687w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=774&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 774w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=987&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 987w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=1287&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1287w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=1374&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1374w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=1587&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1587w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1887w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1974w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=2187&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2187w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=2487&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2487w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2574w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=2787&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2787w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=3087&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3087w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3174w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=3387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3387w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=3687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3687w, https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=3744&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3744w" src="https://images.unsplash.com/photo-1492011221367-f47e3ccd77a0?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="selective photography of white thunder" class="tB6UZ a5VGX" style="aspect-ratio: 3744 / 5616;"></a>
+          </div>
+          <div class="project3-body">
+            <h2 class="center font-size-30px mtop">Weather App</h2>
+            <p class="mstop">A customized weather app, curated to show the weather conditions of any location. Optimized for mobile experience.</p>
+            <p class="mtop">Link to github <a class="blue u" href="https://github.com/ragingtitan/weather-app.git">repository</a>.</p>
+            <p class="mstop">Link to  <a class="blue u" href="https://projectweatherappanish.netlify.app/">Site</a>.</p>
+          </div>
+        </div>
+      </div>
+      <!--Will be shown on clicking see more btn-->
+      <div class="project-wrapper2 toggle">
+        <div class="project1">
+          <div class="project1-head">
+            <a href=""><img sizes="(min-width: 768px) 100vw, (max-width: 498px) min(100%, 458px), (max-height: 757px) min(100%, 458px), (min-aspect-ratio: 4000/5075) calc((calc(100vh - 175px)) * 0.788177), calc(100vw - 40px)" srcset="https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=458&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 458w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=758&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 758w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=916&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 916w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=1058&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1058w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=1358&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1358w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=1516&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1516w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=1658&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1658w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=1958&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1958w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=2116&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2116w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=2258&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2258w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=2558&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2558w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=2716&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2716w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=2858&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2858w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=3158&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3158w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=3316&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3316w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=3458&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3458w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=3758&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3758w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=3916&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3916w, https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=4000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 4000w" src="https://images.unsplash.com/photo-1590454973420-ec89dc9ad192?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="silver aluminum case apple watch with pink sport band" class="tB6UZ a5VGX" style="aspect-ratio: 4000 / 5075;"></a>
+          </div>
+          <div class="project1-body">
+            <h2 class="center font-size-30px mtop">Digital Clock</h2>
+            <p class="mstop">A Simple and user friendly digital clock, that shows time all around the world.</p>
+            <p class="mtop">Link to github <a class="blue u" href="">repository</a>.</p>
+          </div>
+        </div>
+        <div class="project2">
+          <div class="project2-head">
+            <a href=""><img sizes="(min-width: 768px) 100vw, (max-width: 427px) min(100%, 387px), (max-height: 756px) min(100%, 387px), (min-aspect-ratio: 3456/5184) calc((calc(100vh - 175px)) * 0.666667), calc(100vw - 40px)" srcset="https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 387w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 687w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=774&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 774w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=987&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 987w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=1287&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1287w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=1374&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1374w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=1587&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1587w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1887w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1974w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=2187&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2187w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=2487&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2487w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2574w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=2787&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2787w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=3087&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3087w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3174w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=3387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3387w, https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=3456&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3456w" src="https://images.unsplash.com/photo-1606607291535-b0adfbf7424f?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="i am a good man i am a good man i am a good man i" class="tB6UZ a5VGX" style="aspect-ratio: 3456 / 5184;"></a>
+          </div>
+          <div class="project2-body">
+            <h2 class="center font-size-30px mtop">Quote Generator</h2>
+            <p class="mstop">This is an online quote generator. We have quotes for all kinds of mood. Feeling sad? we will make you happy! Feeling down? The quotes will give you a morale boost.</p>
+            <p class="mtop">Link to github <a class="blue u" href="">repository</a>.</p>
+          </div>
+        </div>
+        <div class="project3">
+          <div class="project3-head">
+            <a href=""><img sizes="(min-width: 768px) 100vw, (max-width: 427px) min(100%, 387px), (max-height: 756px) min(100%, 387px), (min-aspect-ratio: 3520/5280) calc((calc(100vh - 175px)) * 0.666667), calc(100vw - 40px)" srcset="https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 387w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=687&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 687w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=774&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 774w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=987&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 987w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=1287&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1287w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=1374&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1374w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=1587&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1587w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1887w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1974w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=2187&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2187w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=2487&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2487w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2574w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=2787&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2787w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=3087&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3087w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=3174&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3174w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=3387&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3387w, https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=3520&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3520w" src="https://images.unsplash.com/photo-1512070800540-0d4192faa057?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Netflix screengrab" class="tB6UZ a5VGX" style="aspect-ratio: 3520 / 5280;"></a>
+          </div>
+          <div class="project3-body">
+            <h2 class="center font-size-30px mtop">Netflix Clone</h2>
+            <p class="mstop">Just a basic clone of the landing page of the famous video streaming app using only HTML and CSS.</p>
+            <p class="mtop">Link to github <a class="blue u" href="https://github.com/DevilSlayer1/Netflix.git">repository</a>.</p>
+            <p class="mstop">Link to <a class="blue u" href="https://projectnetflixanish.netlify.app/">Site</a>.</p>
+          </div>
+        </div>
+      </div>
+      <!--New project-->
+      <div class="project-wrapper3 toggle">
+        <div class="project1">
+          <div class="project1-head">
+            <a href=""><img sizes="(min-width: 768px) 100vw, (max-width: 504px) min(100%, 464px), (max-height: 755px) min(100%, 464px), (min-aspect-ratio: 3600/4500) calc((calc(100vh - 175px)) * 0.8), calc(100vw - 40px)" srcset="https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=464&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 464w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=764&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 764w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=928&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 928w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1064&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1064w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1364&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1364w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1528&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1528w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1664&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1664w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1964&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1964w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2128&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2128w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2264&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2264w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2564&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2564w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2728&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2728w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=2864&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2864w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3164&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3164w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3328&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3328w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3464&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3464w, https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=3600&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3600w" src="https://images.unsplash.com/photo-1605377347958-e8bd4c00ba1d?q=80&amp;w=1000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="blue and white labeled bottle" class="tB6UZ a5VGX" style="aspect-ratio: 3600 / 4500;"></a>
+          </div>
+          <div class="project1-body">
+            <h2 class="center font-size-30px mtop">COVID-19 Website</h2>
+            <p class="mstop">Get COVID-19 HealthCare and news from all over the world. </p>
+            <p class="mtop">Link to github <a class="blue u" href="">repository</a>.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="seemorebtn msbot mstop">
+        <button id="seemore-btn" class="btn">See more</button>
+      </div>
+    </div>
+    <div class="contact mxltop">
+      <div class="contact-wrapper">
+        <div class="contact-header">
+          <h2 class="pl center mstop msbot">Contact me</h2>
+          <ul>
+            <li class="pl msbot"><p><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+              <!-- !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc. -->
+              <path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4" fill="#ffffff"/>
+            </svg>anishdas506@gmail.com</p>
+            </li>
+            <li class="pl msbot"><p><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+              <!-- !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc. -->
+              <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96" fill="#ffffff"/>
+            </svg>+91 7908147215</p>
+            </li>
+            <li class="pl msbot">
+              <div class="socialmedia">
+                <div class="facebook">
+                  <img src="   https://cdn-icons-png.flaticon.com/512/733/733547.png " width="25" height="25" alt="" title="" class="img-small">
+                </div>
+                <div class="instagram">
+                  <img src="   https://cdn-icons-png.flaticon.com/512/1409/1409946.png " width="25" height="25" alt="social media logo instagram" title="" class="img-small">
+                </div>
+                <div class="linkedin">
+                  <img src="   https://cdn-icons-png.flaticon.com/512/3536/3536505.png " width="25" height="25" alt="social media logo linkedin" title="" class="img-small">
+                </div>
+                <div class="github">
+                  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25" height="25" alt="Github Logo free icon" title="Github Logo free icon">
+                </div>
+              </div>
+            </li>
+            <li class="pl mstop">
+              <div class="download msbot">
+                <button class="btn"><a href="Resume.docx">Download Resume</a></button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <form name="submit-to-google-sheet">
+            <input name="Name" class="form mstop" type="name" placeholder="Your Name" required>
+            <br>
+            <input name="Email" class="form" type="email" placeholder="Your Email" required>
+            <br>
+            <textarea name="Feedback" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <br>
+            <div class="submitformbtn msbot">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+          <span id="msg" class="center"></span>
+        </div>
+      </div>
+      <div id="go-up">
+        <div class="go-up-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="23" width="15" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M318 177.5c3.8-8.8 2-19-4.6-26l-136-144C172.9 2.7 166.6 0 160 0s-12.9 2.7-17.4 7.5l-136 144c-6.6 7-8.4 17.2-4.6 26S14.4 192 24 192H96l0 288c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32l0-288h72c9.6 0 18.2-5.7 22-14.5z"/></svg>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  <footer>
+    <p class="footer center">&copy; Anish Das inc.</p> 
+  </footer>
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6gO4uGTIjIZ2isuhJSkbz4QOVMFlCgn-6ZKQWB3Xu4x8eGT0s6F-SI5AJOfs9ugiUDA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML="Form submitted successfully!";
+          setTimeout(function(){
+            msg.innerHTML="";
+          },5000);
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    let loader=document.getElementById('preloader');
+    window.addEventListener('load',()=>{
+      setInterval(()=>{
+        loader.style.display='none';
+      },2000)
+    })
+  </script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--<script>
+    ScrollReveal().reveal('.info-wrapper', { duration: 4000, reset: true });
+    ScrollReveal().reveal('.services', { duration: 3000, reset: true });
+    ScrollReveal().reveal('.project', { duration: 3000, reset: true });
+    ScrollReveal().reveal('.contact', { duration: 3000, reset: true });
+  </script>
+-->
+</body>
+</html>

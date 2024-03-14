@@ -1,0 +1,9 @@
+<form class="contact-form mstop" action=./action.js">
+            <input class="form" type="email" placeholder="Your Email" required>
+            <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <br>
+            <div class="seemorebtn msbot mstop">
+              <button class="btn">Submit</button>
+            </div>
+        </form>
