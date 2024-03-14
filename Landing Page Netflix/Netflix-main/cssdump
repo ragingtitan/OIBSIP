@@ -1,0 +1,58 @@
+.overlay{
+    position: relative;
+    top: -126px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.overlay-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: gray 3px solid;
+    border-radius: 15px;
+    width: 40%;
+    height: 10%;
+    padding: 8px;
+    
+}
+.overlay .overlay-wrapper .image-overlay{
+    display: flex;
+    justify-content: left;
+}
+.overlay .overlay-wrapper .image-overlay{
+    height: 8vh;
+}
+.text-overlay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.animation-overlay{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background: url('assets/download-icon.gif') center center no-repeat;
+} 
+.image-frame2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.video-overlay2{
+    display: flex;
+    justify-content: center;
+    top: -414px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.video-overlay2  video{
+    overflow: hidden;
+    width: 400px;
